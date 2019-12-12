@@ -7,18 +7,9 @@ Our project focuses on getting data from the audio dataset for implementing Cont
 
 # Feature Generation
 Each one of audio files from the dataset was taken and converted into equivalent spectograms. Spectogram can be defined as a visual representation of the complete spectrum of all the frequencies with respect to time. It can be seen as squared magnitude of short-term Fourier Transform (STFT) of the input audio signal. A Fourier transform is basically a representation that inputs a signal in time domain and outputs in frequencies. Mel Scale Spectogram uses Mel Scale in the y-axis to get Frequencies in different bins. This Mel scale Spectogram generation requires librosa built in library which directly converts an audio input into this. The function takes some parameters like – window length (window of time to perform transform) and hop length (number of samples between successive frames). We have used a window length of 2048 (appx 10ms). Hop length was taken as 512. Using Mel scale, we can distinguish between audio better as it scales the Hz scale using log function into dB (Decibels) and squashes the difference to relate more to human perceived pitch.
-(Figure 1: All Major Genres are plotted).
 
 
-
-
-
-
- 	 
- 	 
-
-
-Figure 1: Spectogram plot (From top left): Rock, Classical, Country, Blues
+Refer to the Project Report Doc for more info.
 
 
 
@@ -26,12 +17,5 @@ Figure 1: Spectogram plot (From top left): Rock, Classical, Country, Blues
 
 
 
-
-
- 	 
- 	 
-
- 
-Figure2: Spectogram plot (From top left): Disco, HipHop, Jazz, Metal, Pop, Reggae
 
 
